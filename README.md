@@ -1,4 +1,4 @@
-# trt-express-nodejs-typescript-busboy-fileupload-emaple
+# trt-express-nodejs-typescript-busboy-fileupload-examaple
 Express + NodeJs + Typescript + BusBoy + Fileupload
 
 This is a repository to go with my article on creating an Express web application using TypeScript.
