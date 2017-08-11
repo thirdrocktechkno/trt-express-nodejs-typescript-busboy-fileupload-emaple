@@ -1,4 +1,5 @@
-# Express + Typescript + Busboy + Node.js
+# trt-express-nodejs-typescript-busboy-fileupload-emaple
+Express + NodeJs + Typescript + BusBoy + Fileupload
 
 This is a repository to go with my article on creating an Express web application using TypeScript.
 
@@ -17,3 +18,4 @@ And then run the grunt task to compile the TypeScript:
 To start the server run:
 
 `$ npm start`
+
