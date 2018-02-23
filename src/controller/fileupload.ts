@@ -12,10 +12,9 @@ export class FileUploader {
 
     // method for file upload to server.
     public upload(req: Request, res: Response, next: NextFunction) {
-        const busboy = Busboy({ headers: req.headers });
+        const busboy = new Busboy({ headers: req.headers });
 
         busboy.on("file", function (fieldname, file, filename, encoding, mimetype) {
-
             // path to file upload
             const saveTo = path.join((path.join(__dirname, "/../images/" + filename)));
 
